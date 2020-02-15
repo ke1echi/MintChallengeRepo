@@ -14,10 +14,17 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(self.commitListVM.commits, id: \.id) { commit in
-                VStack {
-                    Text(commit.sha)
+                VStack(alignment: .leading) {
+                    HStack {
+                        Image(systemName: "person.circle.fill")
+                            .font(.system(size: 30))
+                        Text(commit.name)
+                            .font(.title)
+                            Spacer()
+                    }
                     Text(commit.message)
-                    Text(commit.name)
+                    Text(commit.sha)
+                        .foregroundColor(.red)
                 }
             }
             .id(UUID())
