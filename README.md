@@ -1,7 +1,5 @@
 # MintChallengeRepo
 
-**MintChallengeRepo**-
-
 This is a simple app that displays github commits made by different contributor to a certain repo.
 
 
