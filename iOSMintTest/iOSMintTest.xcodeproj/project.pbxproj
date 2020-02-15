@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		428C3DB323F8601E0060A335 /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428C3DB223F8601E0060A335 /* Commit.swift */; };
+		428C3DB623F862780060A335 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428C3DB523F862780060A335 /* WebService.swift */; };
 		42ADCA3823F85E5A0053FBE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ADCA3723F85E5A0053FBE5 /* AppDelegate.swift */; };
 		42ADCA3A23F85E5A0053FBE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ADCA3923F85E5A0053FBE5 /* SceneDelegate.swift */; };
 		42ADCA3C23F85E5A0053FBE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ADCA3B23F85E5A0053FBE5 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		428C3DB223F8601E0060A335 /* Commit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commit.swift; sourceTree = "<group>"; };
+		428C3DB523F862780060A335 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		42ADCA3423F85E5A0053FBE5 /* iOSMintTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMintTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42ADCA3723F85E5A0053FBE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42ADCA3923F85E5A0053FBE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		428C3DB423F8623E0060A335 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				428C3DB523F862780060A335 /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		42ADCA2B23F85E5A0053FBE5 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		42ADCA3623F85E5A0053FBE5 /* iOSMintTest */ = {
 			isa = PBXGroup;
 			children = (
+				428C3DB423F8623E0060A335 /* Service */,
 				428C3DB123F8600D0060A335 /* Model */,
 				42ADCA3723F85E5A0053FBE5 /* AppDelegate.swift */,
 				42ADCA3923F85E5A0053FBE5 /* SceneDelegate.swift */,
@@ -160,6 +171,7 @@
 				428C3DB323F8601E0060A335 /* Commit.swift in Sources */,
 				42ADCA3823F85E5A0053FBE5 /* AppDelegate.swift in Sources */,
 				42ADCA3A23F85E5A0053FBE5 /* SceneDelegate.swift in Sources */,
+				428C3DB623F862780060A335 /* WebService.swift in Sources */,
 				42ADCA3C23F85E5A0053FBE5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
