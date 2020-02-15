@@ -20,13 +20,12 @@ struct ContentView: View {
                             .font(.system(size: 30))
                         Text(commit.name)
                             .font(Font.custom("Gill Sans", size: 26))
-                            Spacer()
                     }
                     Text(commit.message)
                         .font(Font.custom("Gill Sans", size: 18))
                     Text(commit.sha)
                         .foregroundColor(.red)
-                        .font(Font.custom("Gill Sans", size: 14))
+                        .font(Font.custom("Gill Sans", size: 15))
                 }
             }
             .id(UUID())
