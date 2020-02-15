@@ -12,9 +12,9 @@ It makes use of MVVM design pattern
 I enjoyed reading [this](https://medium.com/better-programming/mvvm-in-ios-from-net-perspective-580eb7f4f129) article on the topic.
 
 
-<ins>UI</ins><br />
+### <ins>UI</ins><br />
 It makes use of a simple ui design and also Apple's new SF symbol.
 
 
 
-With a simple clone you have it running on your mac/iphone, enjoy
+With a simple clone you have it running on your mac/iphone, enjoy :blush:
