@@ -8,3 +8,4 @@ As this project continues to grow, I would add features like <br />
 - CoreData <br />
 - Swipe to delete <br />
 - Image fetching <br />
+- Combine 
