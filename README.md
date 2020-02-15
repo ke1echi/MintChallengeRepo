@@ -17,4 +17,4 @@ It makes use of a simple ui design and also Apple's new SF symbol.
 
 
 
-With a simple clone you have it running on your mac/iphone, enjoy :blush:
+With a simple clone you have it running on your mac/iphone, enjoy :thumbsup:
